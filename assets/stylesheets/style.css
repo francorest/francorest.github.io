@@ -17,7 +17,7 @@ body {font-family: 'Source Sans Pro', sans-serif;}
 .footer > .container > .text-muted {margin: 20px 0;color:#ffffff;}
 
 /*Products*/
-.product-img{width:200px;}
+.product-img{height:150px;}
 
 /*Contact*/
 .contact-left{margin-top: 50px;}
