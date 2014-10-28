@@ -1,6 +1,8 @@
 /*Bootstrap overides*/
 .navbar {background: black;border-radius: 0px; border-color:black;}
 .navbar-nav>li>a{color:#ffffff !important;}
+.navbar-brand {padding:0px 15px; margin-top: -10px;}
+.navbar-brand img {height: 70px;}
 .header {padding: 1%}
 
 
