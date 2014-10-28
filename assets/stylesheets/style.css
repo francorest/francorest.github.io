@@ -23,7 +23,7 @@ body {font-family: 'Source Sans Pro', sans-serif; padding-bottom: 50px;}
 .slider_text h3{font-size: 2.4em; color: #ffffff; width: 50%; margin: 0 auto;}
 
 /*Products*/
-.product-img{width:200px;}
+.product-img{height:150px;}
 
 /*Contact*/
 .contact-left{margin-top: 50px;}
