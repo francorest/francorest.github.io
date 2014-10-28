@@ -18,3 +18,10 @@ body {font-family: 'Source Sans Pro', sans-serif;}
 
 /*Products*/
 .product-img{width:200px;}
+
+/*Contact*/
+.contact-left{margin-top: 50px;}
+.contact-right{margin-top: 50px;}
+.contact-right img {height:34px; padding:4px;}
+.contact-right label {padding-top: 6px;}
+textarea {resize: none;}
