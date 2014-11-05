@@ -1,17 +1,43 @@
 /*Bootstrap overides*/
-.navbar {background: black;border-radius: 0px; border-color:black;}
-.navbar-nav>li>a{color:#ffffff !important;}
-.navbar-brand {padding:0px 15px; margin-top: -10px;}
-.navbar-brand img {height: 70px;}
+.navbar {background: #ffffff;border-radius: 0px; border-bottom: 2px solid #eee;}
+.navbar-nav>li>a{color:#3e688f !important;}
+.navbar-brand {padding:0px 15px; margin-top: -4px; margin-left: 0px !important;}
+.navbar-brand img {height: 60px;}
 .header {padding: 1%}
-
-
+a {text-decoration: none;}
 /*Custom*/
 
 /*General*/
 body {font-family: 'Source Sans Pro', sans-serif; padding-bottom: 50px;}
 .wrapper{text-align:center; margin: 0 2% 0 2%;min-height: 450px;}
 .wrapper p {text-align: justify;}
+
+/*Navbar*/
+#nav ul li a:hover {
+	text-decoration:none
+}
+#nav ul li a::after {
+	position:absolute;
+	top:100%;
+	left:0;
+	width:100%;
+	height:2px;
+	background: #3e688f;
+	content:'';
+	opacity:0;
+	-webkit-transition:opacity .3s, -webkit-transform .3s;
+	-moz-transition:opacity .3s, -moz-transform .3s;
+	transition:opacity .3s, transform .3s;
+	-webkit-transform:translateY(10px);
+	-moz-transform:translateY(10px);
+	transform:translateY(10px)
+}
+#nav ul li a:focus::after, #nav ul li a:hover::after, #nav ul li.current-item a::after {
+	opacity:1;
+	-webkit-transform:translateY(0px);
+	-moz-transform:translateY(0px);
+	transform:translateY(0px)
+}
 
 /*Footer*/
 .footer > .container {padding-right: 15px;padding-left: 15px; text-align: center;}
