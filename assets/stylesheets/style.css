@@ -13,10 +13,10 @@ body {font-family: 'Source Sans Pro', sans-serif; padding-bottom: 50px;}
 .wrapper p {text-align: justify;}
 
 /*Navbar*/
-#nav ul li a:hover {
+#bs-example-navbar-collapse-1 ul li a:hover {
 	text-decoration:none
 }
-#nav ul li a::after {
+#bs-example-navbar-collapse-1 ul li a::after {
 	position:absolute;
 	top:100%;
 	left:0;
@@ -32,7 +32,7 @@ body {font-family: 'Source Sans Pro', sans-serif; padding-bottom: 50px;}
 	-moz-transform:translateY(10px);
 	transform:translateY(10px)
 }
-#nav ul li a:focus::after, #nav ul li a:hover::after, #nav ul li.current-item a::after {
+#bs-example-navbar-collapse-1 ul li a:focus::after, #bs-example-navbar-collapse-1 ul li a:hover::after, #bs-example-navbar-collapse-1 ul li.current-item a::after {
 	opacity:1;
 	-webkit-transform:translateY(0px);
 	-moz-transform:translateY(0px);
