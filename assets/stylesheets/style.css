@@ -45,7 +45,7 @@ body {font-family: 'Source Sans Pro', sans-serif; /*padding-bottom: 50px;*/}
 
 /*Home*/
 .slider_bg {
-	background: url('../images/bg1.jpg');
+	background: url('../images/bg7.jpg');
 	background-size: cover;
 	position: absolute;
 	top: 0px;
@@ -58,7 +58,7 @@ body {font-family: 'Source Sans Pro', sans-serif; /*padding-bottom: 50px;*/}
 .slider_text h3{font-size: 2.4em; color: #ffffff; width: 50%; margin: 0 auto;}
 
 /*Products*/
-.product-img{height:150px;}
+.product-img{height:120px;}
 
 /*Contact*/
 .contact-left{margin-top: 50px;}
