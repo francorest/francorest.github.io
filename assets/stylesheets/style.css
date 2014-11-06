@@ -44,14 +44,7 @@ body {font-family: 'Source Sans Pro', sans-serif; /*padding-bottom: 50px;*/}
 .footer > .container > .text-muted {margin: 20px 0;color:#ffffff;}
 
 /*Home*/
-.slider_bg {
-	background: url('../images/bg4.jpg');
-	background-size: cover;
-	position: absolute;
-	top: 0px;
-	height: 100%;
-	width: 100%;
-}
+.slider_bg {background: url('../images/bg4.jpg');background-size: cover;position: absolute;top: 0px;height: 100%;width: 100%;}
 .slider {padding: 4% 6%;}
 .slider_text {text-align:center; margin: 20% 0 16%;}
 .slider_text h2 {font-size: 4em; color:#ffffff; text-transform:uppercase;}
@@ -73,3 +66,10 @@ textarea {resize: none;}
 h3 {
 	color: #2F6984;
 }
+
+
+html,body{height:100%;}
+.carousel {padding-top: 30px;}
+.carousel,.item,.active{height:100% !important;}
+.carousel-inner{height:100%;}
+.fill{width:100%;height:100%;background-position:center;background-size:cover;}
