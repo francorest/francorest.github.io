@@ -67,7 +67,8 @@ body {font-family: 'Source Sans Pro', sans-serif; /*padding-bottom: 50px;*/}
 .contact-right label {padding-top: 6px; color:#3e688f;}
 textarea {resize: none;}
 .submit-button {color:#fff;background-color:#3e688f;}
-
+.carousel-indicators li {border: 1px solid #3e688f !important;}
+.carousel-indicators li.active {background-color: #3e688f;}
 /* font */
 h3 {
 	color: #2F6984;
