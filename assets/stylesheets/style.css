@@ -76,3 +76,14 @@ html,body{height:100%;}
 
 /*Experience*/
 .experience .col-md-4 {margin-bottom: 30px;}
+
+/*Responsive Navbar fix*/
+@media (min-width: 735px) and (max-width: 767px){
+	.navbar-brand img {padding: 3px;}
+}
+@media (min-width: 486px) and (max-width: 734px){
+	.navbar-brand img {padding: 5px;}
+}
+@media (max-width: 485px){
+	.navbar-brand img {padding: 7px;}
+}
